@@ -1,5 +1,6 @@
 package alura.oo.aula1.teste;
 
+import static alura.oo.ConstantesTestes.DELTA;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.closeTo;
@@ -13,8 +14,6 @@ import alura.oo.aula1.Orcamento;
 
 
 public class ImpostoTeste{
-
-   private static final double DELTA = 0.0001;
 
    @Test
    public void deve_Retornar5PorcentoMais50_QuandoCalculadoOICMS(){
