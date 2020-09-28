@@ -3,6 +3,6 @@ package alura.oo.aula1;
 public class ISS implements Imposto{
 
    @Override
-   public double calcula(double valor){ return valor * 0.06; }
+   public double calcula(Orcamento orcamento){ return orcamento.getValor() * 0.06; }
 
 }
